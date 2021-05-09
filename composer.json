@@ -1,0 +1,20 @@
+{
+    "name": "gingteam/console",
+    "description": "laravel console stand alone",
+    "type": "template",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ging-dev",
+            "email": "gingdz11012001@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "illuminate/console": "^8.40",
+        "illuminate/events": "^8.40"
+    },
+    "autoload": {
+        "classmap": ["commands"]
+    }
+}
